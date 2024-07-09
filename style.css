@@ -1,0 +1,115 @@
+* {
+    font-family: 'Lexend', lexend, calibri;
+    box-sizing: border-box;
+
+}
+
+html {
+    width: 100%;
+}
+
+body {
+    background-image: url("bkg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    max-width: 100vw;
+    padding: 10px;
+    align-content: center;
+    text-align: center;
+
+}
+
+h1 {
+    color: #C4D21C;
+    text-align: center;
+    margin-left: 50px;
+    padding-left: 20px;
+    border-left: solid 4px #C4D21C;
+}
+
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px 50px;
+}
+
+p {
+    color: #ffffff;
+    font-size: 22px;
+    margin: auto;
+
+}
+
+img {
+
+    width: 15%;
+
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section p {
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+
+.boto {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 90vw;
+    margin: auto;
+    gap: 15px;
+    padding: 10px;
+}
+
+
+#dif {
+    grid-column: 1/4;
+}
+
+div button {
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 12px;
+    height: 72px;
+    width: 100%;
+    background-color: #F5F5F5;
+    color: #0d0d0d;
+    border: solid #C4D21C 4px;
+    transition-duration: 0.4s;
+    box-shadow: 6px 6px 20px black;
+}
+
+div button:hover {
+    background-color: #879304;
+    color: #dadada;
+}
+
+div button:active {
+    background-color: #314999;
+    color: #ffffff;
+}
+
+audio {
+    width: 100%;
+    padding: 5px 10px;
+    outline: none;
+}
+
+footer p {
+    font-size: 16px;
+    color: #dadada;
+    font-weight: bolder;
+}
+
+footer {
+    margin-top: 25px;
+}
