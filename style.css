@@ -21,11 +21,11 @@ body {
 }
 
 h1 {
-    color: #C4D21C;
+    color: #f9f9f9;
     text-align: center;
     margin-left: 50px;
     padding-left: 20px;
-    border-left: solid 4px #C4D21C;
+    border-left: solid 4px #f9f9f9;
 }
 
 header {
@@ -36,7 +36,7 @@ header {
 }
 
 p {
-    color: #ffffff;
+    color: #2E0142;
     font-size: 22px;
     margin: auto;
 
@@ -57,6 +57,39 @@ section {
 section p {
     font-weight: bolder;
     margin-bottom: 10px;
+}
+
+.stop-container {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    width: 90vw;
+    padding: 10px 0;
+}
+
+.stop-but {
+    font-family: 'Lexend', lexend, calibri;
+    font-size: 22px;
+    font-weight: 900;
+    border-radius: 12px;
+    height: 56px;
+    width: 100%;
+    background-color: #e53935;
+    color: #ffffff;
+    border: solid #b71c1c 4px;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.5);
+    letter-spacing: 2px;
+}
+
+.stop-but:hover {
+    background-color: #b71c1c;
+}
+
+.stop-but:active {
+    background-color: #7f0000;
+    transform: scale(0.97);
 }
 
 
@@ -83,13 +116,13 @@ div button {
     width: 100%;
     background-color: #F5F5F5;
     color: #0d0d0d;
-    border: solid #C4D21C 4px;
+    border: solid #C956FF 4px;
     transition-duration: 0.4s;
     box-shadow: 6px 6px 20px black;
 }
 
 div button:hover {
-    background-color: #879304;
+    background-color: #2E0142;
     color: #dadada;
 }
 
